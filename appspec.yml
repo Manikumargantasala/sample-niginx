@@ -9,6 +9,6 @@ hooks:
      timeout: 300
      runas: root
   ApplicationStart:
-   - location: run.sh
+   - location: start.nginx
      timeout: 300
      runas: root
